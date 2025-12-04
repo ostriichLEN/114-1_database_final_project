@@ -1,4 +1,4 @@
-# 樂團成員管理系統 資料庫管理系統 (BanG Dream\! Database System)
+# 樂團成員管理系統 資料庫管理系統 (Band Management Database System)
 
 這是一個基於 **ASP.NET Core MVC (.NET 8.0)** 開發的網頁版資料庫管理系統，用於管理數個樂團、樂手與藝人資料。本專案為 114-1 學年度資料庫設計課程期末專案。
 
