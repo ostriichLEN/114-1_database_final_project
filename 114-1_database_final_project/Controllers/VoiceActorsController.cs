@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using _114_1_database_final_project.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace _114_1_database_final_project.Controllers
 {
+    [Authorize]
     public class VoiceActorsController : Controller
     {
         private readonly Character1Context _context;

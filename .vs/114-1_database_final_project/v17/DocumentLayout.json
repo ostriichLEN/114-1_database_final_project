@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\114-1_database_final_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\voiceactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\voiceactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,24 +79,8 @@
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\character1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\voiceactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\voiceactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -78,76 +94,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:06:12.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:05:28.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T17:03:11.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wCYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:02:34.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
               "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
               "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-04T16:41:35.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T16:34:14.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T16:31:42.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T16:23:32.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\appsettings.json",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json",
-              "RelativeToolTip": "114-1_database_final_project\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T15:28:38.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
@@ -155,12 +171,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAFIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:21:21.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T15:21:21.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Index.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
@@ -168,12 +183,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:17:03.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T15:17:03.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Index.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Index.cshtml",
@@ -181,25 +195,24 @@
               "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:15:15.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T15:15:15.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "VoiceActorsController.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
               "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
               "RelativeToolTip": "114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAkwCAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T15:12:00.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "VoiceActor.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\VoiceActor.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\VoiceActor.cs",
@@ -207,12 +220,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Models\\VoiceActor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:09:48.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T15:09:48.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Character.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Character.cs",
@@ -220,12 +232,73 @@
               "RelativeToolTip": "114-1_database_final_project\\Models\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:09:19.204Z",
+              "WhenOpened": "2025-12-04T15:09:19.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BandsController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\BandsController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\BandsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:00:18.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:50:17.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\appsettings.json",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json",
+              "RelativeToolTip": "114-1_database_final_project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T15:28:38.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T16:23:32.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T16:31:42.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Band.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Band.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Band.cs",
@@ -233,38 +306,36 @@
               "RelativeToolTip": "114-1_database_final_project\\Models\\Band.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:08:22.212Z",
+              "WhenOpened": "2025-12-04T15:08:22.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Program.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:29:44.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "BandsController.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\BandsController.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Controllers\\BandsController.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAiwE4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:00:18.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBEAAAA9AAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:50:17.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T16:34:14.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
@@ -272,12 +343,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T14:50:58.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:50:58.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Character1Context.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character1Context.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Character1Context.cs",
@@ -285,21 +355,7 @@
               "RelativeToolTip": "114-1_database_final_project\\Models\\Character1Context.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAiwCEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:46:31.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Program.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:29:44.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:46:31.887Z"
             }
           ]
         }

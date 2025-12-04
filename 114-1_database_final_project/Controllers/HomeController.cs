@@ -1,9 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using _114_1_database_final_project.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace _114_1_database_final_project.Controllers;
-
+[Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

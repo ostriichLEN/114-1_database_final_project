@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "系統登入";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-4">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white text-center">
+                <h4> 樂團管理 資料庫登入</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Login" method="post">
+                    @if (ViewBag.ErrorMessage != null)
+                    {
+                        <div class="alert alert-danger">
+                            @ViewBag.ErrorMessage
+                        </div>
+                    }
+
+                    <div class="mb-3">
+                        <label class="form-label">帳號</label>
+                        <input type="text" name="username" class="form-control" placeholder="請輸入帳號" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">密碼</label>
+                        <input type="password" name="password" class="form-control" placeholder="請輸入密碼" required />
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">登入</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-muted text-center text-small">
+                預設帳密: admin / admin
+            </div>
+        </div>
+    </div>
+</div>

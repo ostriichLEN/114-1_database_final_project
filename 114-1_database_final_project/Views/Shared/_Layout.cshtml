@@ -39,6 +39,15 @@
                     </ul>
                 </div>
             </div>
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item ms-3">
+                    <span class="navbar-text me-2">Hi, @User.Identity.Name</span>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-danger btn-sm mt-1" asp-controller="Account" asp-action="Logout">登出</a>
+                </li>
+            }
         </nav>
     </header>
     <div class="container">
