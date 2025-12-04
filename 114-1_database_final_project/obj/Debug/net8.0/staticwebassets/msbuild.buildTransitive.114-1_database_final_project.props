@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\114-1_database_final_project.props" />
+</Project>

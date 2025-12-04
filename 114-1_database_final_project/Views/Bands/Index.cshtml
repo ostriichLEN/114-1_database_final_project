@@ -1,0 +1,75 @@
+﻿@model IEnumerable<_114_1_database_final_project.Models.Band>
+
+@{
+    ViewData["Title"] = "樂團列表";
+}
+
+<h1>樂團列表</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">建立新樂團</a>
+</p>
+
+<div class="card mb-4">
+    <div class="card-header bg-light">
+        <strong>進階搜尋：</strong> 查詢成團超過特定年份且人數足夠的樂團
+    </div>
+    <div class="card-body">
+        <form asp-controller="Bands" asp-action="AdvancedSearch" method="get" class="row g-3 align-items-end">
+            <div class="col-auto">
+                <label class="form-label">至少成立幾年 (K):</label>
+                <input type="number" name="years" class="form-control" placeholder="輸入年份..." />
+            </div>
+            <div class="col-auto">
+                <label class="form-label">至少幾位團員 (N):</label>
+                <input type="number" name="minMembers" class="form-control" placeholder="輸入人數..." />
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">查詢</button>
+                <a asp-action="Index" class="btn btn-secondary">重置/顯示全部</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>樂團編號</th>
+            <th>
+                @Html.DisplayNameFor(model => model.BandName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SinceYear)
+            </th>
+            <th>
+                成員數
+            </th>
+            <th>管理功能</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                @item.BandId
+                 </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BandName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SinceYear)
+                </td>
+                <td>
+                    @item.Characters.Count 人
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BandId" class="btn btn-sm btn-warning">修改</a>
+                    <a asp-action="Details" asp-route-id="@item.BandId" class="btn btn-sm btn-info">詳細</a>
+                    <a asp-action="Delete" asp-route-id="@item.BandId" class="btn btn-sm btn-danger">刪除</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

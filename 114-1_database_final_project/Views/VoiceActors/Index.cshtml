@@ -1,0 +1,108 @@
+﻿@model IEnumerable<_114_1_database_final_project.Models.VoiceActor>
+
+@{
+    ViewData["Title"] = "藝人列表";
+}
+
+<h1>藝人列表</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">新增藝人</a>
+</p>
+
+<div class="card mb-4">
+    <div class="card-body bg-light">
+        <form asp-action="SearchByAge" method="get" class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label class="col-form-label">🔍 查詢年齡大於：</label>
+            </div>
+            <div class="col-auto">
+                <input type="number" name="age" class="form-control" placeholder="輸入歲數 (例如 20)" value="@ViewData["AgeFilter"]">
+            </div>
+            <div class="col-auto">
+                <span class="form-text">歲的藝人</span>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">查詢</button>
+                <a asp-action="Index" class="btn btn-secondary">顯示全部</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                藝人編號
+            </th>
+            <th>
+                姓氏
+            </th>
+            <th>
+                名稱
+            </th>
+            <th>
+                生日
+            </th>
+            <th>
+                目前年齡
+            </th>
+            <th>
+                國籍
+            </th>
+            <th>管理功能</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            // ==========================================
+            // 修正後的年齡計算邏輯 (解決 DateOnly 錯誤)
+            // ==========================================
+            int age = 0;
+            if (item.BirthDate.HasValue)
+            {
+                // 1. 把 DateTime.Now 轉成 DateOnly，因為資料庫是 DateOnly
+                var today = DateOnly.FromDateTime(DateTime.Now);
+
+                // 2. 計算年份差
+                age = today.Year - item.BirthDate.Value.Year;
+
+                // 3. 比較日期 (兩邊都是 DateOnly，可以直接比，不需要 .Date)
+                // 如果今天的日期還沒過生日，歲數減 1
+                if (item.BirthDate.Value > today.AddYears(-age))
+                {
+                    age--;
+                }
+            }
+            // ==========================================
+
+            <tr>
+                <td>
+                    @item.VoiceActorId
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BirthDate)
+                </td>
+                <td>
+                    @(item.BirthDate.HasValue ? age + " 歲" : "未知")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subsidiary)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.VoiceActorId" class="btn btn-sm btn-warning">修改</a>
+                    <a asp-action="Details" asp-route-id="@item.VoiceActorId" class="btn btn-sm btn-info">詳細</a>
+                    <a asp-action="Delete" asp-route-id="@item.VoiceActorId" class="btn btn-sm btn-danger">刪除</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

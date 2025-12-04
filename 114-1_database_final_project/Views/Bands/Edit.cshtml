@@ -1,0 +1,39 @@
+﻿@model _114_1_database_final_project.Models.Band
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Band</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BandId" />
+            <div class="form-group">
+                <label asp-for="BandName" class="control-label"></label>
+                <input asp-for="BandName" class="form-control" />
+                <span asp-validation-for="BandName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SinceYear" class="control-label"></label>
+                <input asp-for="SinceYear" class="form-control" />
+                <span asp-validation-for="SinceYear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
