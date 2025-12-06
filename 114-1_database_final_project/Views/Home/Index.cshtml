@@ -1,8 +1,78 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "首頁";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4 mb-4 fw-bold">114-1資料庫設計期末專題 樂團資料庫管理系統</h1>
+    
+    <p class="lead text-muted mb-5">
+        系統時間：<span id="liveTime" class="fw-bold text-primary">載入中...</span>
+    </p>
+
+    <div class="row justify-content-center">
+        
+        <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3 shadow h-100">
+                <div class="card-header fw-bold">🎸 收錄樂團總數</div>
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <h1 class="card-title display-3 fw-bold">@ViewBag.BandCount</h1>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-controller="Bands" asp-action="Index" class="text-white text-decoration-none stretched-link">前往管理 &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-success mb-3 shadow h-100">
+                <div class="card-header fw-bold">🎤 收錄藝人總數</div>
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <h1 class="card-title display-3 fw-bold">@ViewBag.VoiceActorCount</h1>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-controller="VoiceActors" asp-action="Index" class="text-white text-decoration-none stretched-link">前往管理 &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-info mb-3 shadow h-100">
+                <div class="card-header fw-bold text-dark">👗 收錄樂手總數</div>
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <h1 class="card-title display-3 fw-bold text-dark">@ViewBag.CharacterCount</h1>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-controller="Characters" asp-action="Index" class="text-dark text-decoration-none stretched-link">前往管理 &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
+
+@section Scripts {
+    <script>
+        function updateTime() {
+            const now = new Date();
+            
+            // 格式化時間為 YYYY-MM-DD HH:mm:ss
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hour = String(now.getHours()).padStart(2, '0');
+            const minute = String(now.getMinutes()).padStart(2, '0');
+            const second = String(now.getSeconds()).padStart(2, '0');
+
+            const timeString = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+            
+            // 更新畫面上的文字
+            document.getElementById('liveTime').innerText = timeString;
+        }
+
+        // 每 1000 毫秒 (1秒) 執行一次 updateTime
+        setInterval(updateTime, 1000);
+
+        // 頁面載入後馬上執行一次，避免剛進來時看到 "載入中..."
+        updateTime();
+    </script>
+}

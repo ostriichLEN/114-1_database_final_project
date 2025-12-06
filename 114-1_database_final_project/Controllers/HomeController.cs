@@ -1,21 +1,30 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using _114_1_database_final_project.Models;
 using Microsoft.AspNetCore.Authorization;
+using _114_1_database_final_project.Models;
 
 namespace _114_1_database_final_project.Controllers;
-[Authorize]
+
+[Authorize] // 確保有登入才能看首頁
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly Character1Context _context; // 1. 加入資料庫環境
 
-    public HomeController(ILogger<HomeController> logger)
+    // 2. 建構子注入資料庫 Context
+    public HomeController(ILogger<HomeController> logger, Character1Context context)
     {
         _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
     {
+        // 3. 查詢數量並存入 ViewBag
+        ViewBag.BandCount = _context.Bands.Count();
+        ViewBag.VoiceActorCount = _context.VoiceActors.Count();
+        ViewBag.CharacterCount = _context.Characters.Count();
+
         return View();
     }
 

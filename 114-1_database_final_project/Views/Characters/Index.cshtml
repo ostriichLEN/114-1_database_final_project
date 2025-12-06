@@ -4,7 +4,7 @@
     ViewData["Title"] = "樂手列表";
 }
 
-<h1>列表</h1>
+<h1>樂手列表</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-success">建立新樂手</a>
@@ -27,21 +27,23 @@
     </div>
 </form>
 
-<table class="table table-striped table-hover">
+<table class="table table-striped table-hover" id="myTable">
     <thead>
         <tr>
-            <th>樂手編號</th>
+            <th onclick="sortTable(0)" style="cursor: pointer; user-select: none;">
+                樂手編號 <span class="text-muted small">↕</span>
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.FirstName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.LastName)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Birthdate)
+            <th onclick="sortTable(3)" style="cursor: pointer; user-select: none;">
+                @Html.DisplayNameFor(model => model.Birthdate) <span class="text-muted small">↕</span>
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Height)
+            <th onclick="sortTable(4)" style="cursor: pointer; user-select: none;">
+                @Html.DisplayNameFor(model => model.Height) <span class="text-muted small">↕</span>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.BandPosition)
@@ -58,37 +60,113 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
+                <tr>
+                    <td>
                     @item.CharacterId
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @Html.DisplayFor(modelItem => item.FirstName)
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @Html.DisplayFor(modelItem => item.LastName)
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @Html.DisplayFor(modelItem => item.Birthdate)
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @Html.DisplayFor(modelItem => item.Height) cm
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @Html.DisplayFor(modelItem => item.BandPosition)
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @Html.DisplayFor(modelItem => item.Band.BandName)
-                </td>
-                <td>
+                    </td>
+                    <td>
                     @item.VoiceActor?.FirstName @item.VoiceActor?.LastName
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.CharacterId" class="btn btn-sm btn-warning">修改</a>
-                    <a asp-action="Details" asp-route-id="@item.CharacterId" class="btn btn-sm btn-info">詳細</a>
-                    <a asp-action="Delete" asp-route-id="@item.CharacterId" class="btn btn-sm btn-danger">刪除</a>
-                </td>
-            </tr>
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CharacterId" class="btn btn-sm btn-warning">修改</a>
+                        <a asp-action="Details" asp-route-id="@item.CharacterId" class="btn btn-sm btn-info">詳細</a>
+                        <a asp-action="Delete" asp-route-id="@item.CharacterId" class="btn btn-sm btn-danger">刪除</a>
+                    </td>
+                </tr>
         }
     </tbody>
 </table>
+
+@section Scripts {
+        <script>
+            function sortTable(n) {
+                var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+                table = document.getElementById("myTable");
+                switching = true;
+                // 預設排序方向為 "asc" (從小到大)
+                dir = "asc";
+
+                while (switching) {
+                    switching = false;
+                    rows = table.rows;
+
+                    // 迴圈遍歷所有表格列 (除了第一列標題)
+                    for (i = 1; i < (rows.length - 1); i++) {
+                        shouldSwitch = false;
+
+                        // 取得要比較的兩個元素
+                        x = rows[i].getElementsByTagName("TD")[n];
+                        y = rows[i + 1].getElementsByTagName("TD")[n];
+
+                        // 取得文字內容並移除空白
+                        var xContent = x.innerHTML.trim();
+                        var yContent = y.innerHTML.trim();
+
+                        // 判斷資料類型進行比較
+                        var xValue, yValue;
+
+                        // 如果是 "編號" (第0欄) 或 "身高" (第4欄)，轉成數字比較
+                        // parseInt 會自動忽略 " cm" 這樣的後綴字，只抓前面的數字，所以身高排序會正常運作
+                        if (n === 0 || n === 4) {
+                            xValue = parseInt(xContent) || 0;
+                            yValue = parseInt(yContent) || 0;
+                        }
+                        // 如果是 "生日" (第3欄)，轉成日期比較
+                        else if (n === 3) {
+                            xValue = new Date(xContent);
+                            yValue = new Date(yContent);
+                        }
+                        // 其他當作字串比較
+                        else {
+                            xValue = xContent.toLowerCase();
+                            yValue = yContent.toLowerCase();
+                        }
+
+                        // 根據方向進行比較
+                        if (dir == "asc") {
+                            if (xValue > yValue) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        } else if (dir == "desc") {
+                            if (xValue < yValue) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (shouldSwitch) {
+                        // 執行交換
+                        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                        switching = true;
+                        switchcount++;
+                    } else {
+                        // 如果完成了一輪且沒有發生任何交換，且目前是 "asc"，則改為 "desc" 再跑一次
+                        if (switchcount == 0 && dir == "asc") {
+                            dir = "desc";
+                            switching = true;
+                        }
+                    }
+                }
+            }
+        </script>
+}
