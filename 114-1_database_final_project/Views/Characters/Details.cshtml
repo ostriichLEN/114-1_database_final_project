@@ -1,60 +1,92 @@
 ﻿@model _114_1_database_final_project.Models.Character
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "樂手詳細資料";
 }
 
-<h1>Details</h1>
+<h1>樂手詳細資料</h1>
 
 <div>
-    <h4>Character</h4>
+    <h4>@Model.FirstName @Model.LastName </h4>
     <hr />
     <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CharacterId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CharacterId)
+        </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.FirstName)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FirstName)
         </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.LastName)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.LastName)
         </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Birthdate)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Birthdate)
         </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Height)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Height)
+            @Html.DisplayFor(model => model.Height) cm
         </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.BandPosition)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.BandPosition)
         </dd>
+
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Band)
+            所屬樂團
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Band.BandId)
+            @Model.Band?.BandName
         </dd>
+
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VoiceActor)
+            負責藝人
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.VoiceActor.VoiceActorId)
+            @Model.VoiceActor?.FirstName @Model.VoiceActor?.LastName
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CharacterId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+@if (ViewBag.Relations != null)
+{
+        <div class="mt-4">
+            <h5>🔗 親屬關係</h5>
+            <ul>
+            @foreach (var relation in ViewBag.Relations as IEnumerable<_114_1_database_final_project.Models.Relation>)
+            {
+                // 簡單判斷顯示：如果是跟自己有關的就顯示出來
+                // 注意：因為 Relation 表只有 ID，這裡只能簡單顯示關係類型，要顯示名字需要更複雜的查詢
+                        <li>
+                            關係：@relation.Relationship 
+                            <span class="text-muted small">(ID: @(relation.Id1 == Model.CharacterId ? relation.Id2 : relation.Id1))</span>
+                        </li>
+            }
+            </ul>
+        </div>
+}
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model?.CharacterId" class="btn btn-warning">修改</a>
+    <a asp-action="Index" class="btn btn-secondary">返回列表</a>
 </div>
