@@ -24,9 +24,20 @@ namespace _114_1_database_final_project.Controllers
         // 修改 1: Index 維持不變
         // ==========================================
         // GET: VoiceActors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.VoiceActors.ToListAsync());
+            var query = _context.VoiceActors.AsQueryable();
+
+            // 如果有輸入搜尋字串，同時搜尋 "姓"、"名" 或 "所屬國家"
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(v => v.FirstName.Contains(searchString)
+                                      || v.LastName.Contains(searchString)
+                                      || v.Subsidiary.Contains(searchString));
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+            return View(await query.ToListAsync());
         }
 
         // ==========================================
@@ -96,6 +107,13 @@ namespace _114_1_database_final_project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("VoiceActorId,FirstName,LastName,BirthDate,Subsidiary")] VoiceActor voiceActor)
         {
+            // 1. 檢查編號是否重複
+            if (_context.VoiceActors.Any(x => x.VoiceActorId == voiceActor.VoiceActorId))
+            {
+                ViewBag.AlertMessage = "輸入的藝人編號已存在";
+                return View(voiceActor);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(voiceActor);

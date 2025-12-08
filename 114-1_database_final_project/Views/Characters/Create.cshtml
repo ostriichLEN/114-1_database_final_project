@@ -64,3 +64,12 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+@if (ViewBag.AlertMessage != null)
+{
+        <script type="text/javascript">
+            window.onload = function () {
+                    alert('@Html.Raw(ViewBag.AlertMessage)');
+            };
+        </script>
+}
