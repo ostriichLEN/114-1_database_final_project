@@ -10,6 +10,14 @@
     <a asp-action="Create" class="btn btn-success">建立新樂手</a>
 </p>
 
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="searchString" class="form-control" placeholder="搜尋樂手姓名或樂團..." value="@ViewData["CurrentFilter"]">
+        <button type="submit" class="btn btn-primary">🔍 搜尋</button>
+        <a asp-action="Index" class="btn btn-secondary">清空</a>
+    </div>
+</form>
+
 <form asp-action="SearchByPosition" method="get" class="mb-4">
     <div class="input-group">
         <span class="input-group-text">🔍 依位置搜尋</span>

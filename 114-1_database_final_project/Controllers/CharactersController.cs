@@ -24,12 +24,23 @@ namespace _114_1_database_final_project.Controllers
         // 修改 1: Index 維持不變 (或可加入預設排序)
         // ==========================================
         // GET: Characters
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var character1Context = _context.Characters
+            var query = _context.Characters
                 .Include(c => c.Band)
-                .Include(c => c.VoiceActor);
-            return View(await character1Context.ToListAsync());
+                .Include(c => c.VoiceActor)
+                .AsQueryable();
+
+            // 如果有輸入搜尋字串，同時搜尋 "姓"、"名" 或 "所屬樂團名稱"
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(c => c.FirstName.Contains(searchString)
+                                      || c.LastName.Contains(searchString)
+                                      || (c.Band != null && c.Band.BandName.Contains(searchString)));
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+            return View(await query.ToListAsync());
         }
 
         // ==========================================
@@ -111,12 +122,26 @@ namespace _114_1_database_final_project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CharacterId,FirstName,LastName,Birthdate,Height,VoiceActorId,BandId,BandPosition")] Character character)
         {
+            // 1. 檢查編號是否重複
+            if (_context.Characters.Any(x => x.CharacterId == character.CharacterId))
+            {
+                ViewBag.AlertMessage = "輸入的樂手編號已存在";
+
+                // 重要：因為要返回 View，必須重新載入下拉選單的資料，否則會報錯
+                ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName", character.BandId);
+                ViewData["VoiceActorId"] = new SelectList(_context.VoiceActors, "VoiceActorId", "LastName", character.VoiceActorId);
+
+                return View(character);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(character);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            // 如果驗證失敗，也要重新載入下拉選單
             ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName", character.BandId);
             ViewData["VoiceActorId"] = new SelectList(_context.VoiceActors, "VoiceActorId", "LastName", character.VoiceActorId);
             return View(character);

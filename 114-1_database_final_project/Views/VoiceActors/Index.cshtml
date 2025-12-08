@@ -9,6 +9,13 @@
 <p>
     <a asp-action="Create" class="btn btn-success">新增藝人</a>
 </p>
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="searchString" class="form-control" placeholder="搜尋姓名或國家..." value="@ViewData["CurrentFilter"]">
+        <button type="submit" class="btn btn-primary">🔍 搜尋</button>
+        <a asp-action="Index" class="btn btn-secondary">清空</a>
+    </div>
+</form>
 
 <div class="card mb-4">
     <div class="card-body bg-light">

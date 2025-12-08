@@ -10,6 +10,14 @@
     <a asp-action="Create" class="btn btn-success">建立新樂團</a>
 </p>
 
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="searchString" class="form-control" placeholder="輸入樂團名稱搜尋..." value="@ViewData["CurrentFilter"]">
+        <button type="submit" class="btn btn-primary">🔍 搜尋</button>
+        <a asp-action="Index" class="btn btn-secondary">清空</a>
+    </div>
+</form>
+
 <div class="card mb-4">
     <div class="card-header bg-light">
         <strong>進階搜尋：</strong> 查詢成團超過特定年份且人數足夠的樂團

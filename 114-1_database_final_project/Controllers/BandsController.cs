@@ -24,10 +24,20 @@ namespace _114_1_database_final_project.Controllers
         // 修改 1: Index 加入 Include 讓 View 可以計算成員數
         // ==========================================
         // GET: Bands
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            // 加入 Include(b => b.Characters) 以便在 View 中計算 Count
-            var bands = _context.Bands.Include(b => b.Characters);
+            // 1. 準備查詢 (包含關聯資料)
+            var bands = _context.Bands.Include(b => b.Characters).AsQueryable();
+
+            // 2. 如果有輸入搜尋字串，就篩選 "樂團名稱"
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                bands = bands.Where(b => b.BandName.Contains(searchString));
+            }
+
+            // 3. 把搜尋字串存起來傳回 View (讓搜尋框保留文字)
+            ViewData["CurrentFilter"] = searchString;
+
             return View(await bands.ToListAsync());
         }
 
@@ -105,6 +115,14 @@ namespace _114_1_database_final_project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("BandId,BandName,SinceYear")] Band band)
         {
+            // 1. 檢查編號是否重複
+            if (_context.Bands.Any(x => x.BandId == band.BandId))
+            {
+                // 設定錯誤訊息給 View 使用
+                ViewBag.AlertMessage = "輸入的樂團編號已存在";
+                return View(band);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(band);
