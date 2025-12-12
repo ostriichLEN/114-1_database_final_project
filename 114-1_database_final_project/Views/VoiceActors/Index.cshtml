@@ -19,12 +19,13 @@
 
 <div class="card mb-4">
     <div class="card-body bg-light">
-        <form asp-action="SearchByAge" method="get" class="row g-3 align-items-center">
+        <form asp-action="SearchByAge" method="get" class="row g-3 align-items-center" onsubmit="return checkAge()">
             <div class="col-auto">
                 <label class="col-form-label">🔍 查詢年齡大於：</label>
             </div>
             <div class="col-auto">
-                <input type="number" name="age" class="form-control" placeholder="輸入歲數 (例如 20)" value="@ViewData["AgeFilter"]">
+                <input type="number" id="ageInput" name="age" class="form-control" placeholder="輸入歲數 (例如 20)" value="@ViewData["AgeFilter"]" min="0">  
+                @* HTML5 會自動篩選數字 *@
             </div>
             <div class="col-auto">
                 <span class="form-text">歲的藝人</span>
@@ -178,5 +179,24 @@
                     }
                 }
             }
+                function checkAge() {
+                // 1. 抓取輸入框的值
+                var ageInput = document.getElementById("ageInput").value;
+
+                // 2. 檢查是否小於 0
+                // 注意：如果使用者什麼都沒填就按查詢，ageInput 會是空字串，這通常是允許的(顯示全部)
+                if (ageInput !== "" && parseInt(ageInput) < 0) {
+
+                    // 3. 跳出警告視窗
+                    alert("❌ 年齡不能為負數！請重新輸入。");
+
+                    // 4. 回傳 false，這會告訴表單「取消送出」，網頁就不會動
+                    return false;
+                }
+
+                // 5. 如果檢查通過，回傳 true，表單就會正常送出
+                return true;
+            }
         </script>
 }
+

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\114-1_database_final_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\bands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\114-1_database_final_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\characters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -134,63 +134,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T12:43:39.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T12:36:34.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-12T12:32:34.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T19:53:07.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "20251212122305_InitIdentity.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Migrations\\20251212122305_InitIdentity.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Migrations\\20251212122305_InitIdentity.cs",
@@ -198,12 +146,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Migrations\\20251212122305_InitIdentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T12:23:06.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:23:06.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AppIdentityContext.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\AppIdentityContext.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\AppIdentityContext.cs",
@@ -211,12 +158,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Models\\AppIdentityContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T12:14:33.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:14:33.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\HomeController.cs",
@@ -224,12 +170,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T17:05:28.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T17:05:28.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
@@ -237,25 +182,23 @@
               "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T14:50:58.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:50:58.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:50:17.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:50:17.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Index.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
@@ -263,12 +206,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:17:03.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T15:17:03.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "114-1_database_final_project\\ScaffoldingReadMe.txt",
@@ -276,25 +218,23 @@
               "RelativeToolTip": "114-1_database_final_project\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-12T12:08:42.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:08:42.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "114-1_database_final_project",
+              "DocumentIndex": 14,
+              "Title": "114-1_database_final_project.csproj",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj",
               "RelativeDocumentMoniker": "114-1_database_final_project\\114-1_database_final_project.csproj",
               "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj",
               "RelativeToolTip": "114-1_database_final_project\\114-1_database_final_project.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-12T12:06:11.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:06:11.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Program.cs",
@@ -302,12 +242,11 @@
               "RelativeToolTip": "114-1_database_final_project\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAUwDEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:29:44.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T15:29:44.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json",
               "RelativeDocumentMoniker": "114-1_database_final_project\\appsettings.json",
@@ -315,8 +254,68 @@
               "RelativeToolTip": "114-1_database_final_project\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T15:28:38.596Z",
+              "WhenOpened": "2025-12-04T15:28:38.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T12:36:34.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:21:21.945Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:53:07.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T12:32:34.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T12:43:39.626Z"
             },
             {
               "$type": "Document",
@@ -353,19 +352,6 @@
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-04T16:23:32.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCoAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:21:21.945Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
