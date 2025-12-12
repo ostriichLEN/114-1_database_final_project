@@ -1,26 +1,38 @@
-using Microsoft.EntityFrameworkCore; // 1. °O±o¥[³o¦æ
-using _114_1_database_final_project.Models; // 2. °O±o¥[³o¦æ (±zªº±M®×¦WºÙ)
-using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using _114_1_database_final_project.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// ==========================================
+// 1. åŸæœ¬çš„è³‡æ–™åº«é€£ç·š (Character1Context)
+// â†“â†“â†“ æ‚¨åŸæœ¬ç¼ºå°‘çš„æ­£æ˜¯é€™ä¸€è¡Œ â†“â†“â†“
+// ==========================================
 builder.Services.AddDbContext<Character1Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // ==========================================
-// 2. ¡õ¡õ¡õ ¥[¤J Cookie ÅçÃÒªA°È (¥[¦b³o¸Ì) ¡õ¡õ¡õ
+// 2. ç™»å…¥ç³»çµ±çš„è³‡æ–™åº«é€£ç·š (AppIdentityContext)
 // ==========================================
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        // ¦pªG¨Ï¥ÎªÌ¨Sµn¤J¡A¦Û°Ê¾É¦V¨ì³o­Ó¸ô®|
-        options.LoginPath = "/Account/Login";
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
-    });
+builder.Services.AddDbContext<AppIdentityContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 // ==========================================
+// 3. å•Ÿç”¨ Identity æœå‹™ (ç™»å…¥/è¨»å†ŠåŠŸèƒ½)
+// ==========================================
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+    // å¯†ç¢¼å¼·åº¦è¨­å®š (æ–¹ä¾¿æ¸¬è©¦ç”¨ï¼Œå¯è‡ªè¡Œèª¿æ•´)
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 4;
+})
+    .AddEntityFrameworkStores<AppIdentityContext>();
 
 var app = builder.Build();
 
@@ -37,11 +49,16 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); // <-- ³o¦æ¬O·s¼Wªº
+// å•Ÿç”¨é©—è­‰èˆ‡æˆæ¬Š
+app.UseAuthentication();
 app.UseAuthorization();
 
+// è¨­å®šè·¯ç”±
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// å•Ÿç”¨ Identity çš„é é¢ (Razor Pages)
+app.MapRazorPages();
 
 app.Run();

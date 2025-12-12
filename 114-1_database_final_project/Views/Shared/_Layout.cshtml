@@ -35,19 +35,19 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Bands" asp-action="Index">樂團列表</a>
                         </li>
     
-              
+                        <partial name="_LoginPartial" />
                     </ul>
                 </div>
             </div>
-            @if (User.Identity != null && User.Identity.IsAuthenticated)
-            {
-                <li class="nav-item ms-3">
-                    <span class="navbar-text me-2">Hi, @User.Identity.Name</span>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-danger btn-sm mt-1" asp-controller="Account" asp-action="Logout">登出</a>
-                </li>
-            }
+            @* @if (User.Identity != null && User.Identity.IsAuthenticated) *@
+            @* { *@
+            @*     <li class="nav-item ms-3"> *@
+            @*         <span class="navbar-text me-2">你好, @User.Identity.Name</span> *@
+            @*     </li> *@
+            @*     <li class="nav-item"> *@
+            @*         <a class="btn btn-outline-danger btn-sm mt-1" asp-controller="Account" asp-action="Logout">登出</a> *@
+            @*     </li> *@
+            @* } *@
         </nav>
     </header>
     <div class="container">
