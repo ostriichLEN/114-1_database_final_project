@@ -27,7 +27,7 @@ namespace _114_1_database_final_project.Controllers
         public async Task<IActionResult> Index(string searchString)
         {
             // 1. 準備查詢 (包含關聯資料)
-            var bands = _context.Bands.Include(b => b.Characters).AsQueryable();
+            var bands = _context.Bands.Where(b => b.BandId!=0).AsQueryable();
 
             // 2. 如果有輸入搜尋字串，就篩選 "樂團名稱"
             if (!string.IsNullOrEmpty(searchString))

@@ -26,9 +26,8 @@ namespace _114_1_database_final_project.Controllers
         // GET: VoiceActors
         public async Task<IActionResult> Index(string searchString)
         {
-            var query = _context.VoiceActors.AsQueryable();
+            var query = _context.VoiceActors.Where(v => v.VoiceActorId != 0).AsQueryable();
 
-            // 如果有輸入搜尋字串，同時搜尋 "姓"、"名" 或 "所屬國家"
             if (!string.IsNullOrEmpty(searchString))
             {
                 query = query.Where(v => v.FirstName.Contains(searchString)
