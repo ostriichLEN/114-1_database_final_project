@@ -2,6 +2,9 @@
 
 這是一個基於 **ASP.NET Core MVC (.NET 8.0)** 開發的網頁版資料庫管理系統，用於管理數個樂團、樂手與藝人資料。本專案為 114-1 學年度資料庫設計課程期末專案。
 
+## DEMO LINK
+- [web server](https://tonja-unsharped-karl.ngrok-free.dev/)
+
 ## 專案功能 (Features)
 
 ### 1\. 系統權限與安全
