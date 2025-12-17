@@ -58,7 +58,16 @@ namespace _114_1_database_final_project.Controllers
             // 如果有輸入位置 (例如 "guitar", "vocal")，就進行篩選
             if (!string.IsNullOrEmpty(position))
             {
-                query = query.Where(c => c.BandPosition == position);
+                if (position == "Other")
+                {
+                    string[] standardPositions = { "vocal", "guitar", "bass", "drum", "keyboard" };
+                    query = query.Where(c => !standardPositions.Contains(c.BandPosition));
+                }
+                else
+                {
+                    query = query.Where(c => c.BandPosition == position);
+                }
+                    
             }
 
             // 回傳 Index 視圖顯示結果
@@ -105,17 +114,24 @@ namespace _114_1_database_final_project.Controllers
         // 修改 3: Create 優化下拉選單顯示文字
         // ==========================================
         // GET: Characters/Create
-        public IActionResult Create()
-        {
-            // 修改 SelectList 參數：顯示 BandName 而不是 BandId
-            ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName");
+        // GET: Characters/Create
+public IActionResult Create()
+{
+    ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName");
+    
+    // 修改這裡：組合 LastName 和 FirstName
+    // 同時設定預設選取項目為 0 (未知)
+    var voiceActorList = _context.VoiceActors
+        .Select(v => new { 
+            v.VoiceActorId, 
+            FullName = v.LastName + " " + v.FirstName 
+        });
 
-            // 修改 SelectList 參數：顯示聲優的 LastName (或可組合成全名)
-            // 這裡示範用 LastName，若要全名需在 View 或 Model 處理
-            ViewData["VoiceActorId"] = new SelectList(_context.VoiceActors, "VoiceActorId", "LastName");
-
-            return View();
-        }
+    // 第三個參數 0 表示預設選中 ID 為 0 的項目
+    ViewData["VoiceActorId"] = new SelectList(voiceActorList, "VoiceActorId", "FullName", 0);
+    
+    return View();
+}
 
         // POST: Characters/Create
         [HttpPost]
@@ -164,7 +180,16 @@ namespace _114_1_database_final_project.Controllers
                 return NotFound();
             }
             ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName", character.BandId);
-            ViewData["VoiceActorId"] = new SelectList(_context.VoiceActors, "VoiceActorId", "LastName", character.VoiceActorId);
+
+            // 修改這裡：組合全名
+            var voiceActorList = _context.VoiceActors
+                .Select(v => new {
+                    v.VoiceActorId,
+                    FullName = v.LastName + " " + v.FirstName
+                });
+
+            ViewData["VoiceActorId"] = new SelectList(voiceActorList, "VoiceActorId", "FullName", character.VoiceActorId);
+
             return View(character);
         }
 

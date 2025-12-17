@@ -28,7 +28,7 @@
             <!option value="bass" @(ViewData["CurrentFilter"] as string == "bass" ? "selected" : "")>Bass (貝斯)</!option>
             <!option value="drum" @(ViewData["CurrentFilter"] as string == "drum" ? "selected" : "")>Drum (鼓手)</!option>
             <!option value="keyboard" @(ViewData["CurrentFilter"] as string == "keyboard" ? "selected" : "")>Keyboard (鍵盤)</!option>
-            <!option value="DJ" @(ViewData["CurrentFilter"] as string == "DJ" ? "selected" : "")>DJ</!option>
+            <option value="Other">其他 (Other)</option>
         </select>
         <button type="submit" class="btn btn-primary">搜尋</button>
         <a asp-action="Index" class="btn btn-secondary">顯示全部</a>
