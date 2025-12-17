@@ -114,7 +114,6 @@ namespace _114_1_database_final_project.Controllers
         // 修改 3: Create 優化下拉選單顯示文字
         // ==========================================
         // GET: Characters/Create
-        // GET: Characters/Create
 public IActionResult Create()
 {
     ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName");
@@ -124,7 +123,7 @@ public IActionResult Create()
     var voiceActorList = _context.VoiceActors
         .Select(v => new { 
             v.VoiceActorId, 
-            FullName = v.LastName + " " + v.FirstName 
+            FullName = v.FirstName + " " +  v.LastName // FirstName 是姓氏
         });
 
     // 第三個參數 0 表示預設選中 ID 為 0 的項目
