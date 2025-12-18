@@ -131,13 +131,12 @@
                         // 判斷資料類型進行比較
                         var xValue, yValue;
 
-                        // 如果是 "編號" (第0欄) 或 "身高" (第4欄)，轉成數字比較
-                        // parseInt 會自動忽略 " cm" 這樣的後綴字，只抓前面的數字，所以身高排序會正常運作
+                       
                         if (n === 0 || n === 4) {
                             xValue = parseInt(xContent) || 0;
                             yValue = parseInt(yContent) || 0;
                         }
-                        // 如果是 "生日" (第3欄)，轉成日期比較
+                      
                         else if (n === 3) {
                             xValue = new Date(xContent);
                             yValue = new Date(yContent);

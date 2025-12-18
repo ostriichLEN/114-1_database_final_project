@@ -9,9 +9,9 @@ namespace _114_1_database_final_project.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly Character1Context _context; // 1. 加入資料庫環境
+    private readonly Character1Context _context; 
 
-    // 2. 建構子注入資料庫 Context
+ 
     public HomeController(ILogger<HomeController> logger, Character1Context context)
     {
         _logger = logger;
@@ -20,7 +20,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        // 3. 查詢數量並存入 ViewBag
+       
         ViewBag.BandCount = _context.Bands.Count();
         ViewBag.VoiceActorCount = _context.VoiceActors.Count();
         ViewBag.CharacterCount = _context.Characters.Count();

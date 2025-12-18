@@ -180,21 +180,18 @@
                 }
             }
                 function checkAge() {
-                // 1. 抓取輸入框的值
+               
                 var ageInput = document.getElementById("ageInput").value;
 
-                // 2. 檢查是否小於 0
-                // 注意：如果使用者什麼都沒填就按查詢，ageInput 會是空字串，這通常是允許的(顯示全部)
+               
                 if (ageInput !== "" && parseInt(ageInput) < 0) {
 
-                    // 3. 跳出警告視窗
-                    alert("❌ 年齡不能為負數！請重新輸入。");
-
-                    // 4. 回傳 false，這會告訴表單「取消送出」，網頁就不會動
+                    
+                    alert("❌ 年齡不能為負數！請重新輸入。");  // html5 沒報錯時才會進
                     return false;
                 }
 
-                // 5. 如果檢查通過，回傳 true，表單就會正常送出
+              
                 return true;
             }
         </script>

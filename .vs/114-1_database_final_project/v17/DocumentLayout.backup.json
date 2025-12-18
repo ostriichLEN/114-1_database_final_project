@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\114-1_database_final_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\characters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\characters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\characters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\characters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\bands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\bands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\bands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\bands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\voiceactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\voiceactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\character1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\character1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\appidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\appidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\migrations\\20251212122305_initidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\migrations\\20251212122305_initidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\voiceactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\voiceactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\characters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\characters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -43,36 +95,12 @@
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\migrations\\20251212122305_initidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\migrations\\20251212122305_initidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\appidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\appidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\bands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\bands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -83,18 +111,6 @@
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\114-1_database_final_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\voiceactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\voiceactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\bands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\bands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\bands\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\bands\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -103,28 +119,12 @@
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\characters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\views\\voiceactors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\views\\voiceactors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|d:\\c\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\models\\character1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B35376-C8B7-4EF8-88AB-C6A8ECFE92A0}|114-1_database_final_project\\114-1_database_final_project.csproj|solutionrelative:114-1_database_final_project\\models\\character1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,110 +134,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CharactersController.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\CharactersController.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\CharactersController.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\CharactersController.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Controllers\\CharactersController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAUwH4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T17:06:12.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VoiceActorsController.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:12:00.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BandsController.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\BandsController.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Controllers\\BandsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:00:18.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Index.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Index.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Index.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:15:15.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:21:21.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Index.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Index.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:17:03.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:50:17.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T17:05:28.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "AppIdentityContext.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\AppIdentityContext.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\AppIdentityContext.cs",
@@ -245,56 +146,8 @@
               "RelativeToolTip": "114-1_database_final_project\\Models\\AppIdentityContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T12:14:33.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\ScaffoldingReadMe.txt",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "114-1_database_final_project\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-12T12:08:42.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "114-1_database_final_project.csproj",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\114-1_database_final_project.csproj",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj",
-              "RelativeToolTip": "114-1_database_final_project\\114-1_database_final_project.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-12T12:06:11.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAEcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T16:23:32.193Z",
+              "WhenOpened": "2025-12-12T12:14:33.608Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-04T14:50:58.759Z"
             },
             {
               "$type": "Document",
@@ -306,23 +159,280 @@
               "RelativeToolTip": "114-1_database_final_project\\Migrations\\20251212122305_InitIdentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T12:23:06.073Z"
+              "WhenOpened": "2025-12-12T12:23:06.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Band.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Band.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Band.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Band.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Models\\Band.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:08:22.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Character.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Models\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:09:19.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Character1Context.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character1Context.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Character1Context.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character1Context.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Models\\Character1Context.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvyEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:46:31.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VoiceActor.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\VoiceActor.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\VoiceActor.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\VoiceActor.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Models\\VoiceActor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:09:48.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Create.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Create.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Create.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Bands\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T16:55:02.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Index.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Index.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Bands\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:17:03.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Index.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Index.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Index.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Index.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAIsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:15:15.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:53:07.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T16:54:32.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T16:41:35.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Index.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAL0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:21:21.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Program.cs",
               "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Program.cs",
               "RelativeToolTip": "114-1_database_final_project\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:29:44.024Z"
+              "WhenOpened": "2025-12-04T15:29:44.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
+              "Title": "VoiceActorsController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\VoiceActorsController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\VoiceActorsController.cs*",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\VoiceActorsController.cs*",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAiwGQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:12:00.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:05:28.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\CharactersController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwFEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:06:12.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BandsController.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Controllers\\BandsController.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Controllers\\BandsController.cs*",
+              "RelativeToolTip": "114-1_database_final_project\\Controllers\\BandsController.cs*",
+              "ViewState": "AgIAALEAAAAAAAAAAAAiwHQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:00:18.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Characters\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T16:23:32.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "114-1_database_final_project.csproj",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\114-1_database_final_project.csproj",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\114-1_database_final_project.csproj",
+              "RelativeToolTip": "114-1_database_final_project\\114-1_database_final_project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-12T12:06:11.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "114-1_database_final_project\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-12T12:08:42.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:50:17.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "114-1_database_final_project\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-04T14:50:58.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\appsettings.json",
               "RelativeDocumentMoniker": "114-1_database_final_project\\appsettings.json",
@@ -334,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -346,19 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T19:53:07.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -370,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Shared\\_LoginPartial.cshtml",
@@ -382,43 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Character.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Character.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Models\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:09:19.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VoiceActor.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\VoiceActor.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\VoiceActor.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\VoiceActor.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Models\\VoiceActor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:09:48.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T16:41:35.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Characters\\Details.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Characters\\Details.cshtml",
@@ -430,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Details.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Details.cshtml",
@@ -442,31 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\VoiceActors\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T16:54:32.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Create.cshtml",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\Bands\\Create.cshtml",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\Bands\\Create.cshtml",
-              "RelativeToolTip": "114-1_database_final_project\\Views\\Bands\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T16:55:02.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Details.cshtml",
@@ -478,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
               "RelativeDocumentMoniker": "114-1_database_final_project\\Views\\VoiceActors\\Edit.cshtml",
@@ -487,30 +525,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-04T16:34:14.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Band.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Band.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Band.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Band.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Models\\Band.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:08:22.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Character1Context.cs",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character1Context.cs",
-              "RelativeDocumentMoniker": "114-1_database_final_project\\Models\\Character1Context.cs",
-              "ToolTip": "D:\\C\u002B\u002B\\114-1_database_final_project\\114-1_database_final_project\\Models\\Character1Context.cs",
-              "RelativeToolTip": "114-1_database_final_project\\Models\\Character1Context.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAiwCEAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:46:31.887Z"
             }
           ]
         }

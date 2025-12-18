@@ -20,9 +20,7 @@ namespace _114_1_database_final_project.Controllers
             _context = context;
         }
 
-        // ==========================================
-        // 修改 1: Index 維持不變
-        // ==========================================
+
         // GET: VoiceActors
         public async Task<IActionResult> Index(string searchString)
         {
@@ -39,25 +37,23 @@ namespace _114_1_database_final_project.Controllers
             return View(await query.ToListAsync());
         }
 
-        // ==========================================
-        // 新增功能: 依年齡搜尋 (對應 Python 的 query_age_frame)
-        // ==========================================
+
         // GET: VoiceActors/SearchByAge
         public async Task<IActionResult> SearchByAge(int? age)
         {
             // 建立查詢
             var query = _context.VoiceActors.AsQueryable();
 
-            // 如果有輸入年齡 (例如輸入 20，代表要找 > 20 歲的人)
+
             if (age != null)
             {
-                // 計算出生日期界線：要在 (今天 - age) 之前出生的人，年齡才會大於 age
+            
                 // 把 DateTime 轉成 DateOnly
                 var dateLimit = DateOnly.FromDateTime(DateTime.Today.AddYears(-age.Value));
 
                 query = query.Where(v => v.BirthDate.HasValue && v.BirthDate < dateLimit);
 
-                // 將搜尋條件傳回 View，以便在畫面上顯示 "目前的搜尋條件: 大於 20 歲"
+               
                 ViewData["AgeFilter"] = age;
             }
 
@@ -65,9 +61,7 @@ namespace _114_1_database_final_project.Controllers
             return View("Index", await query.ToListAsync());
         }
 
-        // ==========================================
-        // 修改 2: Details 加入配音角色關聯
-        // ==========================================
+       
         // GET: VoiceActors/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -77,9 +71,9 @@ namespace _114_1_database_final_project.Controllers
             }
 
             var voiceActor = await _context.VoiceActors
-                // 加入關聯：載入此聲優配音的角色
+               
                 .Include(v => v.Characters)
-                // 再加入關聯：載入那些角色所屬的樂團 (這樣詳細頁面就能顯示很完整的資訊)
+
                 .ThenInclude(c => c.Band)
                 .FirstOrDefaultAsync(m => m.VoiceActorId == id);
 
@@ -91,9 +85,7 @@ namespace _114_1_database_final_project.Controllers
             return View(voiceActor);
         }
 
-        // ==========================================
-        // 以下為標準 CRUD 功能 (保持不變)
-        // ==========================================
+     
 
         // GET: VoiceActors/Create
         public IActionResult Create()
@@ -106,7 +98,7 @@ namespace _114_1_database_final_project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("VoiceActorId,FirstName,LastName,BirthDate,Subsidiary")] VoiceActor voiceActor)
         {
-            // 1. 檢查編號是否重複
+            
             if (_context.VoiceActors.Any(x => x.VoiceActorId == voiceActor.VoiceActorId))
             {
                 ViewBag.AlertMessage = "輸入的藝人編號已存在";

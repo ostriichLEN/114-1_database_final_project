@@ -3,6 +3,7 @@
 這是一個基於 **ASP.NET Core MVC (.NET 8.0)** 開發的網頁版資料庫管理系統，用於管理數個樂團、樂手與藝人資料。本專案為 114-1 學年度資料庫設計課程期末專案。
 
 ## DEMO LINK
+> 僅供 12/18 課堂 demo 使用，完畢後默認連結失效。
 - [web server](https://tonja-unsharped-karl.ngrok-free.dev/)
 
 ## 專案功能 (Features)
@@ -10,7 +11,7 @@
 ### 1\. 系統權限與安全
 
   * **登入系統**：透過 Cookie Authentication 實作，未登入使用者無法存取任何資料頁面。
-  * **權限控管**：所有資料庫操作（CRUD）皆受 `[Authorize]` 保護。
+  * **權限控管**：受 ASP.NET Core Identity 保護。
 
 ### 2\. 資料管理模組
 
@@ -51,7 +52,7 @@
 ### 2\. 資料庫設定
 
 本專案預設連線至本地端的 `character_1` 資料庫。
-請確保您的 SQL Server 中已建立該資料庫，並執行初始化 SQL 腳本（`init.sql`）。
+請確保 SQL Server 中已建立該資料庫，並執行初始化 SQL 腳本（`init.sql`）。
 
 **連線字串設定** (`appsettings.json`)：
 
@@ -61,7 +62,7 @@
 }
 ```
 
-*如果不使用 `localhost`，請將 `Server=` 修改為您的 SQL Server 實例名稱（例如 `(localdb)\mssqllocaldb`）。*
+*如不使用 `localhost`，請將 `Server=` 修改為 SQL Server 實例名稱（例如 `(localdb)\mssqllocaldb`）。*
 
 ### 3\. 執行專案
 
@@ -79,12 +80,8 @@ dotnet run
 
 ### 系統登入
 
-系統預設為保護狀態，請使用以下預設管理員帳號登入：
-
-  * **帳號 (Username)**: `admin`
-  * **密碼 (Password)**: `admin`
-
-*(登入邏輯位於 `Controllers/AccountController.cs`)*
+- 採用 ASP.NET Core Identity 安全性功能支援。
+- 透過註冊按鈕進行註冊，並使用已註冊的帳號、密碼於登入介面中完成登入後可進行資料庫編輯。
 
 ### 網頁導覽
 
