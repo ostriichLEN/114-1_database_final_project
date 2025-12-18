@@ -20,9 +20,6 @@ namespace _114_1_database_final_project.Controllers
             _context = context;
         }
 
-        // ==========================================
-        // 修改 1: Index 維持不變 (或可加入預設排序)
-        // ==========================================
         // GET: Characters
         public async Task<IActionResult> Index(string searchString)
         {
@@ -43,9 +40,7 @@ namespace _114_1_database_final_project.Controllers
             return View(await query.ToListAsync());
         }
 
-        // ==========================================
-        // 新增功能: 依位置搜尋 (對應 Python 的 position_query_frame)
-        // ==========================================
+     
         // GET: Characters/SearchByPosition
         public async Task<IActionResult> SearchByPosition(string position)
         {
@@ -71,14 +66,11 @@ namespace _114_1_database_final_project.Controllers
             }
 
             // 回傳 Index 視圖顯示結果
-            // 可以在 View 上方顯示 "目前的搜尋條件: position"
             ViewData["CurrentFilter"] = position;
             return View("Index", await query.ToListAsync());
         }
 
-        // ==========================================
-        // 修改 2: Details 加入親屬關係查詢 (對應 relation_frame)
-        // ==========================================
+
         // GET: Characters/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -97,36 +89,33 @@ namespace _114_1_database_final_project.Controllers
                 return NotFound();
             }
 
-            // --- 新增：查詢此角色的親屬關係 ---
             // 對應 SQL: SELECT * FROM relation WHERE id_1 = ? OR id_2 = ?
             var relations = await _context.Relations
                 .Where(r => r.Id1 == id || r.Id2 == id)
                 .ToListAsync();
 
-            // 將親屬資料傳給 View (View 需自行處理顯示邏輯，例如顯示 ID 或嘗試對應名字)
+     
             ViewBag.Relations = relations;
             // -------------------------------
 
             return View(character);
         }
 
-        // ==========================================
-        // 修改 3: Create 優化下拉選單顯示文字
-        // ==========================================
+      
         // GET: Characters/Create
 public IActionResult Create()
 {
     ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName");
     
-    // 修改這裡：組合 LastName 和 FirstName
-    // 同時設定預設選取項目為 0 (未知)
+    // 組合 LastName 和 FirstName
+    // 設預設選取項目為 0 
     var voiceActorList = _context.VoiceActors
         .Select(v => new { 
             v.VoiceActorId, 
             FullName = v.FirstName + " " +  v.LastName // FirstName 是姓氏
         });
 
-    // 第三個參數 0 表示預設選中 ID 為 0 的項目
+    // 0 表示預設選中 ID 為 0 的項目
     ViewData["VoiceActorId"] = new SelectList(voiceActorList, "VoiceActorId", "FullName", 0);
     
     return View();
@@ -137,7 +126,7 @@ public IActionResult Create()
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CharacterId,FirstName,LastName,Birthdate,Height,VoiceActorId,BandId,BandPosition")] Character character)
         {
-            // 1. 檢查編號是否重複
+            // 檢查編號是否重複
             if (_context.Characters.Any(x => x.CharacterId == character.CharacterId))
             {
                 ViewBag.AlertMessage = "輸入的樂手編號已存在";
@@ -162,9 +151,7 @@ public IActionResult Create()
             return View(character);
         }
 
-        // ==========================================
-        // 修改 4: Edit 同步優化下拉選單
-        // ==========================================
+     
         // GET: Characters/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -180,7 +167,7 @@ public IActionResult Create()
             }
             ViewData["BandId"] = new SelectList(_context.Bands, "BandId", "BandName", character.BandId);
 
-            // 修改這裡：組合全名
+            // 組合全名
             var voiceActorList = _context.VoiceActors
                 .Select(v => new {
                     v.VoiceActorId,

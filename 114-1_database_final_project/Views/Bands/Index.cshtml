@@ -112,8 +112,7 @@
                         // 判斷資料類型進行比較
                         var xValue, yValue;
 
-                        // 如果是 "編號" (0)、"年份" (2) 或 "成員數" (3)，轉成數字比較
-                        // parseInt 會自動忽略 " 人" 這樣的後綴字，只抓前面的數字
+                       
                         if (n === 0 || n === 2 || n === 3) {
                             xValue = parseInt(xContent) || 0;
                             yValue = parseInt(yContent) || 0;
@@ -144,7 +143,7 @@
                         switching = true;
                         switchcount++;
                     } else {
-                        // 如果完成了一輪且沒有發生任何交換，且目前是 "asc"，則改為 "desc" 再跑一次
+                       
                         if (switchcount == 0 && dir == "asc") {
                             dir = "desc";
                             switching = true;
